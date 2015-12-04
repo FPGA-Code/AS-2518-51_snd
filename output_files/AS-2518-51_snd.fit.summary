@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Dec 04 08:57:50 2015
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : AS-2518-51_snd
+Top-level Entity Name : minibd_top
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Final
+Total logic elements : 3,044 / 4,608 ( 66 % )
+    Total combinational functions : 2,529 / 4,608 ( 55 % )
+    Dedicated logic registers : 1,553 / 4,608 ( 34 % )
+Total registers : 1553
+Total pins : 5 / 89 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 16,384 / 119,808 ( 14 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

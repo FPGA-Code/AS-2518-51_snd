@@ -1,0 +1,387 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP2C5 (0x020B10DD)" sof_file="">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2015/12/02 23:13:19  #0">
+      <clock name="clkdiv[0]" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="1024" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="AS_2518_51:Core|addr_i[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_bdir" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[10]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[11]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[12]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[13]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[14]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[15]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[8]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[9]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_irq" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|pia_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ram_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|rom_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|snd_int_i" tap_mode="classic"/>
+          <wire name="cpu_clk" tap_mode="classic"/>
+          <wire name="reset_l" tap_mode="classic"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="AS_2518_51:Core|addr_i[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_bdir" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[10]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[11]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[12]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[13]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[14]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[15]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[8]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[9]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_irq" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|pia_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ram_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|rom_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|snd_int_i" tap_mode="classic"/>
+          <wire name="cpu_clk" tap_mode="classic"/>
+          <wire name="reset_l" tap_mode="classic"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="AS_2518_51:Core|addr_i[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|addr_i[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_bdir" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[10]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[11]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[12]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[13]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[14]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[15]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[8]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu68:U3|address[9]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[0]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[1]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[2]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[3]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[4]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[5]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[6]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_din[7]" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|cpu_irq" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|pia_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|ram_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|rom_cs" tap_mode="classic"/>
+          <wire name="AS_2518_51:Core|snd_int_i" tap_mode="classic"/>
+          <wire name="cpu_clk" tap_mode="classic"/>
+          <wire name="reset_l" tap_mode="classic"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <unified_setup_data_view>
+          <node data_index="44" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="cpu_clk" storage_index="44" tap_mode="classic" trigger_index="44" type="register"/>
+          <node name="AS_2518_51:Core|cpu_din" order="msb_to_lsb" type="combinatorial">
+            <node data_index="38" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[7]" storage_index="38" tap_mode="classic" trigger_index="38" type="combinatorial"/>
+            <node data_index="37" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[6]" storage_index="37" tap_mode="classic" trigger_index="37" type="combinatorial"/>
+            <node data_index="36" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[5]" storage_index="36" tap_mode="classic" trigger_index="36" type="combinatorial"/>
+            <node data_index="35" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[4]" storage_index="35" tap_mode="classic" trigger_index="35" type="combinatorial"/>
+            <node data_index="34" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[3]" storage_index="34" tap_mode="classic" trigger_index="34" type="combinatorial"/>
+            <node data_index="33" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[2]" storage_index="33" tap_mode="classic" trigger_index="33" type="combinatorial"/>
+            <node data_index="32" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[1]" storage_index="32" tap_mode="classic" trigger_index="32" type="combinatorial"/>
+            <node data_index="31" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[0]" storage_index="31" tap_mode="classic" trigger_index="31" type="combinatorial"/>
+          </node>
+          <node data_index="40" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="AS_2518_51:Core|pia_cs" storage_index="40" tap_mode="classic" trigger_index="40" type="combinatorial"/>
+          <node data_index="41" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ram_cs" storage_index="41" tap_mode="classic" trigger_index="41" type="combinatorial"/>
+          <node data_index="42" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|rom_cs" storage_index="42" tap_mode="classic" trigger_index="42" type="combinatorial"/>
+          <node data_index="45" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="reset_l" storage_index="45" tap_mode="classic" trigger_index="45" type="input pin"/>
+          <node name="AS_2518_51:Core|cpu68:U3|address" order="msb_to_lsb" state="collapse" type="combinatorial">
+            <node data_index="21" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[15]" storage_index="21" tap_mode="classic" trigger_index="21" type="combinatorial"/>
+            <node data_index="20" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[14]" storage_index="20" tap_mode="classic" trigger_index="20" type="combinatorial"/>
+            <node data_index="19" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[13]" storage_index="19" tap_mode="classic" trigger_index="19" type="combinatorial"/>
+            <node data_index="18" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[12]" storage_index="18" tap_mode="classic" trigger_index="18" type="combinatorial"/>
+            <node data_index="17" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[11]" storage_index="17" tap_mode="classic" trigger_index="17" type="combinatorial"/>
+            <node data_index="16" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[10]" storage_index="16" tap_mode="classic" trigger_index="16" type="combinatorial"/>
+            <node data_index="30" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[9]" storage_index="30" tap_mode="classic" trigger_index="30" type="combinatorial"/>
+            <node data_index="29" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[8]" storage_index="29" tap_mode="classic" trigger_index="29" type="combinatorial"/>
+            <node data_index="28" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[7]" storage_index="28" tap_mode="classic" trigger_index="28" type="combinatorial"/>
+            <node data_index="27" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[6]" storage_index="27" tap_mode="classic" trigger_index="27" type="combinatorial"/>
+            <node data_index="26" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[5]" storage_index="26" tap_mode="classic" trigger_index="26" type="combinatorial"/>
+            <node data_index="25" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[4]" storage_index="25" tap_mode="classic" trigger_index="25" type="combinatorial"/>
+            <node data_index="24" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[3]" storage_index="24" tap_mode="classic" trigger_index="24" type="combinatorial"/>
+            <node data_index="23" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[2]" storage_index="23" tap_mode="classic" trigger_index="23" type="combinatorial"/>
+            <node data_index="22" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[1]" storage_index="22" tap_mode="classic" trigger_index="22" type="combinatorial"/>
+            <node data_index="15" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[0]" storage_index="15" tap_mode="classic" trigger_index="15" type="combinatorial"/>
+          </node>
+          <node data_index="39" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="falling edge" name="AS_2518_51:Core|cpu_irq" storage_index="39" tap_mode="classic" trigger_index="39" type="combinatorial"/>
+          <node data_index="43" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="AS_2518_51:Core|snd_int_i" storage_index="43" tap_mode="classic" trigger_index="43" type="combinatorial"/>
+          <node name="AS_2518_51:Core|addr_i" order="msb_to_lsb" state="collapse" type="combinatorial">
+            <node data_index="5" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[5]" storage_index="5" tap_mode="classic" trigger_index="5" type="combinatorial"/>
+            <node data_index="4" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[4]" storage_index="4" tap_mode="classic" trigger_index="4" type="combinatorial"/>
+            <node data_index="3" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[3]" storage_index="3" tap_mode="classic" trigger_index="3" type="combinatorial"/>
+            <node data_index="2" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[2]" storage_index="2" tap_mode="classic" trigger_index="2" type="combinatorial"/>
+            <node data_index="1" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[1]" storage_index="1" tap_mode="classic" trigger_index="1" type="combinatorial"/>
+            <node data_index="0" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="combinatorial"/>
+          </node>
+          <node name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in" order="msb_to_lsb" type="combinatorial">
+            <node data_index="14" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[7]" storage_index="14" tap_mode="classic" trigger_index="14" type="combinatorial"/>
+            <node data_index="13" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[6]" storage_index="13" tap_mode="classic" trigger_index="13" type="combinatorial"/>
+            <node data_index="12" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[5]" storage_index="12" tap_mode="classic" trigger_index="12" type="combinatorial"/>
+            <node data_index="11" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[4]" storage_index="11" tap_mode="classic" trigger_index="11" type="combinatorial"/>
+            <node data_index="10" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[3]" storage_index="10" tap_mode="classic" trigger_index="10" type="combinatorial"/>
+            <node data_index="9" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[2]" storage_index="9" tap_mode="classic" trigger_index="9" type="combinatorial"/>
+            <node data_index="8" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[1]" storage_index="8" tap_mode="classic" trigger_index="8" type="combinatorial"/>
+            <node data_index="7" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[0]" storage_index="7" tap_mode="classic" trigger_index="7" type="combinatorial"/>
+          </node>
+          <node data_index="6" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_bdir" storage_index="6" tap_mode="classic" trigger_index="6" type="combinatorial"/>
+        </unified_setup_data_view>
+        <data_view>
+          <net data_index="44" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="cpu_clk" storage_index="44" tap_mode="classic" trigger_index="44" type="register"/>
+          <bus name="AS_2518_51:Core|cpu_din" order="msb_to_lsb" type="combinatorial">
+            <net data_index="38" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[7]" storage_index="38" tap_mode="classic" trigger_index="38" type="combinatorial"/>
+            <net data_index="37" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[6]" storage_index="37" tap_mode="classic" trigger_index="37" type="combinatorial"/>
+            <net data_index="36" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[5]" storage_index="36" tap_mode="classic" trigger_index="36" type="combinatorial"/>
+            <net data_index="35" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[4]" storage_index="35" tap_mode="classic" trigger_index="35" type="combinatorial"/>
+            <net data_index="34" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[3]" storage_index="34" tap_mode="classic" trigger_index="34" type="combinatorial"/>
+            <net data_index="33" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[2]" storage_index="33" tap_mode="classic" trigger_index="33" type="combinatorial"/>
+            <net data_index="32" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[1]" storage_index="32" tap_mode="classic" trigger_index="32" type="combinatorial"/>
+            <net data_index="31" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[0]" storage_index="31" tap_mode="classic" trigger_index="31" type="combinatorial"/>
+          </bus>
+          <net data_index="40" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="AS_2518_51:Core|pia_cs" storage_index="40" tap_mode="classic" trigger_index="40" type="combinatorial"/>
+          <net data_index="41" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ram_cs" storage_index="41" tap_mode="classic" trigger_index="41" type="combinatorial"/>
+          <net data_index="42" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|rom_cs" storage_index="42" tap_mode="classic" trigger_index="42" type="combinatorial"/>
+          <net data_index="45" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="reset_l" storage_index="45" tap_mode="classic" trigger_index="45" type="input pin"/>
+          <bus name="AS_2518_51:Core|cpu68:U3|address" order="msb_to_lsb" state="collapse" type="combinatorial">
+            <net data_index="21" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[15]" storage_index="21" tap_mode="classic" trigger_index="21" type="combinatorial"/>
+            <net data_index="20" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[14]" storage_index="20" tap_mode="classic" trigger_index="20" type="combinatorial"/>
+            <net data_index="19" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[13]" storage_index="19" tap_mode="classic" trigger_index="19" type="combinatorial"/>
+            <net data_index="18" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[12]" storage_index="18" tap_mode="classic" trigger_index="18" type="combinatorial"/>
+            <net data_index="17" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[11]" storage_index="17" tap_mode="classic" trigger_index="17" type="combinatorial"/>
+            <net data_index="16" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[10]" storage_index="16" tap_mode="classic" trigger_index="16" type="combinatorial"/>
+            <net data_index="30" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[9]" storage_index="30" tap_mode="classic" trigger_index="30" type="combinatorial"/>
+            <net data_index="29" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[8]" storage_index="29" tap_mode="classic" trigger_index="29" type="combinatorial"/>
+            <net data_index="28" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[7]" storage_index="28" tap_mode="classic" trigger_index="28" type="combinatorial"/>
+            <net data_index="27" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[6]" storage_index="27" tap_mode="classic" trigger_index="27" type="combinatorial"/>
+            <net data_index="26" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[5]" storage_index="26" tap_mode="classic" trigger_index="26" type="combinatorial"/>
+            <net data_index="25" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[4]" storage_index="25" tap_mode="classic" trigger_index="25" type="combinatorial"/>
+            <net data_index="24" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[3]" storage_index="24" tap_mode="classic" trigger_index="24" type="combinatorial"/>
+            <net data_index="23" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[2]" storage_index="23" tap_mode="classic" trigger_index="23" type="combinatorial"/>
+            <net data_index="22" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[1]" storage_index="22" tap_mode="classic" trigger_index="22" type="combinatorial"/>
+            <net data_index="15" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[0]" storage_index="15" tap_mode="classic" trigger_index="15" type="combinatorial"/>
+          </bus>
+          <net data_index="39" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="falling edge" name="AS_2518_51:Core|cpu_irq" storage_index="39" tap_mode="classic" trigger_index="39" type="combinatorial"/>
+          <net data_index="43" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="AS_2518_51:Core|snd_int_i" storage_index="43" tap_mode="classic" trigger_index="43" type="combinatorial"/>
+          <bus name="AS_2518_51:Core|addr_i" order="msb_to_lsb" state="collapse" type="combinatorial">
+            <net data_index="5" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[5]" storage_index="5" tap_mode="classic" trigger_index="5" type="combinatorial"/>
+            <net data_index="4" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[4]" storage_index="4" tap_mode="classic" trigger_index="4" type="combinatorial"/>
+            <net data_index="3" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[3]" storage_index="3" tap_mode="classic" trigger_index="3" type="combinatorial"/>
+            <net data_index="2" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[2]" storage_index="2" tap_mode="classic" trigger_index="2" type="combinatorial"/>
+            <net data_index="1" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[1]" storage_index="1" tap_mode="classic" trigger_index="1" type="combinatorial"/>
+            <net data_index="0" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="combinatorial"/>
+          </bus>
+          <bus name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in" order="msb_to_lsb" type="combinatorial">
+            <net data_index="14" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[7]" storage_index="14" tap_mode="classic" trigger_index="14" type="combinatorial"/>
+            <net data_index="13" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[6]" storage_index="13" tap_mode="classic" trigger_index="13" type="combinatorial"/>
+            <net data_index="12" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[5]" storage_index="12" tap_mode="classic" trigger_index="12" type="combinatorial"/>
+            <net data_index="11" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[4]" storage_index="11" tap_mode="classic" trigger_index="11" type="combinatorial"/>
+            <net data_index="10" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[3]" storage_index="10" tap_mode="classic" trigger_index="10" type="combinatorial"/>
+            <net data_index="9" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[2]" storage_index="9" tap_mode="classic" trigger_index="9" type="combinatorial"/>
+            <net data_index="8" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[1]" storage_index="8" tap_mode="classic" trigger_index="8" type="combinatorial"/>
+            <net data_index="7" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[0]" storage_index="7" tap_mode="classic" trigger_index="7" type="combinatorial"/>
+          </bus>
+          <net data_index="6" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_bdir" storage_index="6" tap_mode="classic" trigger_index="6" type="combinatorial"/>
+        </data_view>
+        <setup_view>
+          <net data_index="44" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="cpu_clk" storage_index="44" tap_mode="classic" trigger_index="44" type="register"/>
+          <bus name="AS_2518_51:Core|cpu_din" order="msb_to_lsb" type="combinatorial">
+            <net data_index="38" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[7]" storage_index="38" tap_mode="classic" trigger_index="38" type="combinatorial"/>
+            <net data_index="37" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[6]" storage_index="37" tap_mode="classic" trigger_index="37" type="combinatorial"/>
+            <net data_index="36" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[5]" storage_index="36" tap_mode="classic" trigger_index="36" type="combinatorial"/>
+            <net data_index="35" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[4]" storage_index="35" tap_mode="classic" trigger_index="35" type="combinatorial"/>
+            <net data_index="34" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[3]" storage_index="34" tap_mode="classic" trigger_index="34" type="combinatorial"/>
+            <net data_index="33" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[2]" storage_index="33" tap_mode="classic" trigger_index="33" type="combinatorial"/>
+            <net data_index="32" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[1]" storage_index="32" tap_mode="classic" trigger_index="32" type="combinatorial"/>
+            <net data_index="31" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu_din[0]" storage_index="31" tap_mode="classic" trigger_index="31" type="combinatorial"/>
+          </bus>
+          <net data_index="40" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="AS_2518_51:Core|pia_cs" storage_index="40" tap_mode="classic" trigger_index="40" type="combinatorial"/>
+          <net data_index="41" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ram_cs" storage_index="41" tap_mode="classic" trigger_index="41" type="combinatorial"/>
+          <net data_index="42" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|rom_cs" storage_index="42" tap_mode="classic" trigger_index="42" type="combinatorial"/>
+          <net data_index="45" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="reset_l" storage_index="45" tap_mode="classic" trigger_index="45" type="input pin"/>
+          <bus name="AS_2518_51:Core|cpu68:U3|address" order="msb_to_lsb" state="collapse" type="combinatorial">
+            <net data_index="21" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[15]" storage_index="21" tap_mode="classic" trigger_index="21" type="combinatorial"/>
+            <net data_index="20" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[14]" storage_index="20" tap_mode="classic" trigger_index="20" type="combinatorial"/>
+            <net data_index="19" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[13]" storage_index="19" tap_mode="classic" trigger_index="19" type="combinatorial"/>
+            <net data_index="18" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[12]" storage_index="18" tap_mode="classic" trigger_index="18" type="combinatorial"/>
+            <net data_index="17" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[11]" storage_index="17" tap_mode="classic" trigger_index="17" type="combinatorial"/>
+            <net data_index="16" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[10]" storage_index="16" tap_mode="classic" trigger_index="16" type="combinatorial"/>
+            <net data_index="30" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[9]" storage_index="30" tap_mode="classic" trigger_index="30" type="combinatorial"/>
+            <net data_index="29" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[8]" storage_index="29" tap_mode="classic" trigger_index="29" type="combinatorial"/>
+            <net data_index="28" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[7]" storage_index="28" tap_mode="classic" trigger_index="28" type="combinatorial"/>
+            <net data_index="27" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[6]" storage_index="27" tap_mode="classic" trigger_index="27" type="combinatorial"/>
+            <net data_index="26" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[5]" storage_index="26" tap_mode="classic" trigger_index="26" type="combinatorial"/>
+            <net data_index="25" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[4]" storage_index="25" tap_mode="classic" trigger_index="25" type="combinatorial"/>
+            <net data_index="24" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[3]" storage_index="24" tap_mode="classic" trigger_index="24" type="combinatorial"/>
+            <net data_index="23" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[2]" storage_index="23" tap_mode="classic" trigger_index="23" type="combinatorial"/>
+            <net data_index="22" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[1]" storage_index="22" tap_mode="classic" trigger_index="22" type="combinatorial"/>
+            <net data_index="15" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|cpu68:U3|address[0]" storage_index="15" tap_mode="classic" trigger_index="15" type="combinatorial"/>
+          </bus>
+          <net data_index="39" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="falling edge" name="AS_2518_51:Core|cpu_irq" storage_index="39" tap_mode="classic" trigger_index="39" type="combinatorial"/>
+          <net data_index="43" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="AS_2518_51:Core|snd_int_i" storage_index="43" tap_mode="classic" trigger_index="43" type="combinatorial"/>
+          <bus name="AS_2518_51:Core|addr_i" order="msb_to_lsb" state="collapse" type="combinatorial">
+            <net data_index="5" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[5]" storage_index="5" tap_mode="classic" trigger_index="5" type="combinatorial"/>
+            <net data_index="4" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[4]" storage_index="4" tap_mode="classic" trigger_index="4" type="combinatorial"/>
+            <net data_index="3" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[3]" storage_index="3" tap_mode="classic" trigger_index="3" type="combinatorial"/>
+            <net data_index="2" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[2]" storage_index="2" tap_mode="classic" trigger_index="2" type="combinatorial"/>
+            <net data_index="1" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[1]" storage_index="1" tap_mode="classic" trigger_index="1" type="combinatorial"/>
+            <net data_index="0" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|addr_i[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="combinatorial"/>
+          </bus>
+          <bus name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in" order="msb_to_lsb" type="combinatorial">
+            <net data_index="14" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[7]" storage_index="14" tap_mode="classic" trigger_index="14" type="combinatorial"/>
+            <net data_index="13" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[6]" storage_index="13" tap_mode="classic" trigger_index="13" type="combinatorial"/>
+            <net data_index="12" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[5]" storage_index="12" tap_mode="classic" trigger_index="12" type="combinatorial"/>
+            <net data_index="11" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[4]" storage_index="11" tap_mode="classic" trigger_index="11" type="combinatorial"/>
+            <net data_index="10" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[3]" storage_index="10" tap_mode="classic" trigger_index="10" type="combinatorial"/>
+            <net data_index="9" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[2]" storage_index="9" tap_mode="classic" trigger_index="9" type="combinatorial"/>
+            <net data_index="8" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[1]" storage_index="8" tap_mode="classic" trigger_index="8" type="combinatorial"/>
+            <net data_index="7" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_d_in[0]" storage_index="7" tap_mode="classic" trigger_index="7" type="combinatorial"/>
+          </bus>
+          <net data_index="6" is_data_input="true" is_node_valid="true" is_storage_input="true" is_trigger_input="true" name="AS_2518_51:Core|ay_3_8910:U1|cpu_bdir" storage_index="6" tap_mode="classic" trigger_index="6" type="combinatorial"/>
+        </setup_view>
+        <trigger_in_editor/>
+        <trigger_out_editor/>
+      </presentation>
+      <trigger CRC="4E3EF63A" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2015/12/02 23:13:19  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'AS_2518_51:Core|cpu_irq' == falling edge
+            <power_up enabled="yes">
+            </power_up><op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>1111111111111111111111111111111111111111111111
+            <pwr_up_transitional>1111111111111111111111111111111111111111111111</pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2015/12/02 23:13:19  #2"/>
+          <extradata/>
+        </log>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="data horizontal scroll position" value="16"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="4"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="32512"/>
+    </position_info>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="config widget visible" value="1"/>
+    <single attribute="data log widget visible" value="1"/>
+    <single attribute="hierarchy widget visible" value="1"/>
+    <single attribute="instance widget visible" value="1"/>
+    <single attribute="jtag widget visible" value="1"/>
+    <multi attribute="frame size" size="2" value="1920,1005"/>
+    <multi attribute="jtag widget size" size="2" value="370,139"/>
+  </global_info>
+</session>
